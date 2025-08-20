@@ -22,6 +22,10 @@ fieldset {
   padding: 0;
 }
 
+a {
+  color: inherit;
+}
+
 input {
   color: inherit;
   background-color: transparent;
@@ -254,8 +258,7 @@ ol {
   width: 4px;
 }
 
-.search-form__label:hover,
-.search-form__label-text:hover  {
+.search-form__label:hover .search-form__label-text {
   text-decoration: underline;
 }
 
@@ -317,7 +320,7 @@ ol {
   outline: 1px solid rgba(255, 255, 255, 1);
 }
 
-.content__card-link:hover .content__video-card-description-container {
+.content__card-link:hover {
   text-decoration: underline;
 }
 
